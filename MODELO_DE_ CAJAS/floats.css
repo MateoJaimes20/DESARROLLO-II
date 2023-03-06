@@ -1,0 +1,39 @@
+* {
+    border-radius: 5px;
+    text-align: center;
+    font-family: Courier;
+}
+
+.container {
+    background: orange;
+    max-width: 800px;
+    margin: 0 auto ;
+}
+.header {
+    background: purple;
+    height: 60px;
+}
+
+.wapper {
+    background: blue;
+}
+
+.menu {
+    background: greenyellow;
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+
+.content {
+    background: aqua;
+    width: 70%;
+    float: left;
+}
+
+.footer {
+    background: pink;
+    clear: both; 
+    /* clear:both; es para que deje de flotar el elemento */
+    
+}
