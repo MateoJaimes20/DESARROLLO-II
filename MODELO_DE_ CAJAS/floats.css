@@ -1,5 +1,5 @@
 * {
-    border-radius: 5px;
+    border-radius: 30px;
     text-align: center;
     font-family: Courier;
 }
@@ -16,24 +16,23 @@
 
 .wapper {
     background: blue;
+    /* flex-direction: row-reverse; */
+    display: flex;
 }
 
 .menu {
     background: greenyellow;
     width: 30%;
-    height: 50px;
-    float: left;
 }
 
 .content {
     background: aqua;
     width: 70%;
-    float: left;
 }
 
 .footer {
     background: pink;
     clear: both; 
     /* clear:both; es para que deje de flotar el elemento */
-    
+
 }
